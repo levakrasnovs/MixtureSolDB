@@ -1,0 +1,4 @@
+streamlit_ketcher
+plotly
+rdkit
+molfeat==0.10.0
