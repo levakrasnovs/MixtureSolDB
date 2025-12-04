@@ -8,6 +8,7 @@ from rdkit.Chem import Draw
 from streamlit_ketcher import st_ketcher
 from molfeat.calc import FPCalculator
 
+
 from rdkit import RDLogger
 RDLogger.DisableLog('rdApp.*')
 
@@ -74,9 +75,9 @@ def show_search_results(search_df):
             fig_pair.update_traces(marker=dict(size=5))
             fig_pair.update_layout(scene=dict(xaxis_title=f'Fraction of {solv1}', yaxis_title='T,K', zaxis_title='Solubility (mole fraction)'))
             if i % 2 == 0:
-                col1result.plotly_chart(fig_pair, key=f'{canonize_mol}{i}')
+                col1result.plotly_chart(fig_pair, key=random.randint(0, 100000000))
             else:
-                col2result.plotly_chart(fig_pair, key=f'{canonize_mol}{i}')
+                col2result.plotly_chart(fig_pair, key=random.randint(0, 100000000))
     st.dataframe(search_df)
 
 
