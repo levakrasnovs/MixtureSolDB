@@ -8,7 +8,6 @@ from rdkit.Chem import Draw
 from streamlit_ketcher import st_ketcher
 from molfeat.calc import FPCalculator
 
-
 from rdkit import RDLogger
 RDLogger.DisableLog('rdApp.*')
 
@@ -118,7 +117,7 @@ col1intro, col2intro, col3intro = st.columns([2, 1, 2])
 col1intro.markdown(f"""
 # MixtureSolDB
 
-Download MixtureSolDB: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15094979.svg)](https://doi.org/10.5281/zenodo.15094979)
+Download MixtureSolDB: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17846307.svg)](https://doi.org/10.5281/zenodo.17846307)
                    
 """)
 
