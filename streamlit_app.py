@@ -117,7 +117,7 @@ col1intro, col2intro, col3intro = st.columns([2, 1, 2])
 col1intro.markdown(f"""
 # MixtureSolDB
 
-Download MixtureSolDB: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17846307.svg)](https://doi.org/10.5281/zenodo.17846307)
+Download MixtureSolDB: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18234735.svg)](https://doi.org/10.5281/zenodo.18234735)
                    
 """)
 
